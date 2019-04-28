@@ -134,3 +134,15 @@ input:focus {
   left: 250px;
   transition: 0.1s;
 }
+@media (max-width: 743px) {
+  .container_3 {
+    display: block !important;
+    padding: 0 !important;
+  }
+  .gallery_nadpis {
+    padding: 0 20px !important;
+  }
+  .icons li {
+    padding: 0 10px !important;
+  }
+}
