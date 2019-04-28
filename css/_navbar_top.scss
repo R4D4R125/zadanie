@@ -1,0 +1,41 @@
+#navbar {
+  background: $secondaryColor;
+  display: flex;
+  height: 6vh;
+  padding: 0 20px;
+  align-items: center;
+}
+#navbar i {
+  color: $primaryColor;
+}
+.pseudo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.admin_text {
+  font-size: 21px;
+  padding-left: 20px;
+  color: $primaryColor;
+}
+.logout_text {
+  font-size: 14px;
+  cursor: pointer;
+  color: $primaryColor;
+}
+.menu_off {
+  padding-right: 20px;
+  color: $primaryColor;
+}
+.rotate {
+  -moz-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  color: $primaryColor;
+}
+
+.rotate.down {
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}

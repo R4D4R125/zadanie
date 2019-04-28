@@ -1,0 +1,136 @@
+@import "./sidenavbar";
+@import "./variables";
+@import "./gallery";
+@import "./categories_row";
+@import "./navbar_top";
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+.background_login {
+  background: url(../img/backround.jpg) no-repeat center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  text-align: center;
+}
+.login_form {
+  border: 1px solid $primaryColor;
+  padding: 20px;
+  background: $primaryColor;
+  height: 40vh;
+  width: 35vh;
+  box-shadow: 0 0 4px $boxShadows_1, 0 4px 8px $boxShadows_2;
+}
+
+.btn_sign {
+  background: $secondaryColor;
+  color: $primaryColor;
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 20px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.container_button a {
+  text-decoration: none;
+}
+.login_icon {
+  border: 1px solid #f50057;
+  border-radius: 50%;
+  padding: 10px;
+  background: #f50057;
+}
+.container_username {
+  margin: 60px 0 30px;
+}
+
+.login_input {
+  border: none;
+  border-bottom: 1px solid $tercialColor;
+  width: 100%;
+}
+.login_input[type="text"] {
+  font-size: 18px;
+  padding: 8px 0;
+}
+.login_input[type="password"] {
+  font-size: 18px;
+  padding: 8px 0;
+}
+
+.text_hint {
+  color: $tercialColor;
+  font-size: 21px;
+}
+label {
+  position: relative;
+  right: 123px;
+  font-size: 20px;
+  color: $tercialColor;
+  padding: 10px;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+//!---------------- POSTER PAGE---------------
+
+.container_1 {
+  position: fixed;
+  z-index: 1;
+  top: 60px;
+  left: 10px;
+  width: 15%;
+}
+
+.search_input {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  margin-right: 20px;
+}
+.search {
+  border: none;
+  border-bottom: 1px solid $tercialColor;
+}
+
+.icons {
+  color: $secondaryColor;
+  font-weight: 700;
+  font-size: 14px;
+  justify-content: baseline;
+}
+.icons li {
+  list-style: none;
+  display: inline-flex;
+  padding: 0 20px;
+}
+.list_icons {
+  margin-top: 27px;
+  cursor: pointer;
+  padding-right: 10px;
+}
+
+.search {
+  font-size: 18px;
+}
+.gallery_icons {
+  padding-top: 30px;
+  cursor: pointer;
+}
+.active {
+  left: 250px;
+  transition: 0.1s;
+}

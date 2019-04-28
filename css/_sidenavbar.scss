@@ -1,0 +1,22 @@
+.navigation {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+.navigation li {
+  display: flex;
+  padding: 10px;
+  color: $tercialColor;
+  cursor: pointer;
+}
+.navigation li:hover,
+.navigation li:focus {
+  background-color: #ececec;
+}
+
+.navigation a {
+  padding-left: 20px;
+  text-decoration: none;
+  color: $tercialColor;
+  padding-top: 5px;
+}
